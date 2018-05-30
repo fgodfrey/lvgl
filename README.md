@@ -1,5 +1,8 @@
 # Littlev Graphics Libraray
 
+Forked from the Littlev Graphics Library repository of the same name.  This differs only in incorporating a very simple build system.  The remaining elements of the
+build system are from this repository:  https://github.com/fgodfrey/littlevgl_build
+
 ![LittlevGL cover](http://www.gl.littlev.hu/home/main_cover_small.png)
 
 LittlevGL provides everything you need to create a Graphical User Interface (GUI) on embedded systems with easy-to-use graphical elements, beautiful visual effects and low memory footprint.
