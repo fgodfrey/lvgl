@@ -39,6 +39,9 @@ headers:
 	done
 
 clean:
+	for DIR in $(SUBDIRS) ; do	 			\
+		$(MAKE) -C $$DIR clean TOPDIR=$(TOPDIR)/.. ;	\
+	done
 	rm -f $(PROGS) *.o
 
 include $(TOPDIR)/build-support/base-rules.mk
